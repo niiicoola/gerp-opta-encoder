@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "device_id": "opta-esempio-001",
+  "model": "AFX00003",
+  "usb_serial": "DA_COMPILARE",
+  "site": "Sede di esempio",
+  "gerp_machine_id": null,
+  "encoder_profile": "lika-ir65-2500-x4",
+  "firmware_version": "0.3.3-lan",
+  "maintenance_url": "http://192.0.2.10:8080",
+  "opcua_endpoint": "opc.tcp://192.0.2.10:4840"
+}

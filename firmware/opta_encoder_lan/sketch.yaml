@@ -1,0 +1,11 @@
+profiles:
+  opta_lite_encoder:
+    fqbn: arduino:mbed_opta:opta
+    platforms:
+      - platform: arduino:mbed_opta (4.6.0)
+    libraries:
+      - Arduino_OPC_UA (0.1.2)
+      - Arduino_Opta_Blueprint (0.2.8)
+      - Arduino_SerialUpdater (0.0.1)
+      - Arduino_DebugUtils (1.5.0)
+      - Arduino_Portenta_OTA (1.2.1)

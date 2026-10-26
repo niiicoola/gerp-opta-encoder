@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "profile_id": "e38s6g5-600b-g24n-x4",
+  "model": "E38S6G5-600B-G24N",
+  "pulses_per_revolution": 600,
+  "decoding_multiplier": 4,
+  "counts_per_revolution": 2400,
+  "firmware_profile_id": "real-ab-600-x4-diagnostic-v1",
+  "compatible_board": "AFX00003",
+  "qualification": "diagnostic_only",
+  "wiring": {
+    "red": "VCC, alimentazione 5-24 V DC secondo etichetta",
+    "black": "0 V comune con Opta",
+    "white": "A verso I1",
+    "green": "B verso I2",
+    "interface": "NPN open collector con pull-up esterni; vedere docs/opta/cablaggio-proposto.md"
+  },
+  "limitations": [
+    "Precisione e velocità massima ancora da validare sul gruppo ruota/encoder.",
+    "Contatori azzerati a ogni riavvio; persistenza non implementata.",
+    "Il profilo descrive il firmware diagnostico esistente: non viene scritto nella memoria dell'Opta."
+  ]
+}

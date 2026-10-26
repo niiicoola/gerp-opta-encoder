@@ -1,0 +1,15 @@
+.arduino-staging/
+.arduino-user/
+.build/
+.venv/
+__pycache__/
+.secrets/
+.arduino-data/
+.DS_Store
+arduino-cli.yaml
+tmp/
+devices/local/
+reports/
+firmware/opta_encoder_lan/OtaPublicKey.h
+firmware/opta_encoder_lan/BuildInfo.h
+firmware/opta_encoder_lan/EncoderProfile.h

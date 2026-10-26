@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "profile_id": "lika-ir65-2500-x4",
+  "model": "Lika IR65-H402500-BCP-08-ST-A",
+  "pulses_per_revolution": 2500,
+  "decoding_multiplier": 4,
+  "counts_per_revolution": 10000,
+  "firmware_profile_id": "real-ab-lika-ir65-2500-x4-diagnostic-v1",
+  "compatible_board": "AFX00003",
+  "qualification": "diagnostic_only",
+  "wiring": {
+    "phase_A": "Uscita A non invertita verso I1",
+    "phase_B": "Uscita B non invertita verso I2",
+    "common": "0 V encoder e 0 V Opta in comune",
+    "interface": "Push-pull confermato dall'operatore; verificare pinout e livelli della variante H4 prima del cablaggio",
+    "unused": "Non usare le uscite complementari /A, /B o l'eventuale indice 0 come seconda fase"
+  },
+  "limitations": [
+    "2500 PPR nominali dal codice fornito, da confermare su etichetta e prova di un giro.",
+    "Il catalogo I65/IT65 usa una codifica più recente del codice IR65: non costituisce da solo il pinout della variante in uso.",
+    "BCP nel catalogo indica AB e complementari: identificare le fasi effettive sul documento del connettore, senza dedurre i pin dalle lettere.",
+    "Precisione e velocità massima dell'insieme Opta/encoder da validare.",
+    "Contatori azzerati al riavvio; persistenza non implementata.",
+    "Il profilo viene incluso nel BIN in compilazione: non è ancora una configurazione modificabile a runtime."
+  ]
+}
